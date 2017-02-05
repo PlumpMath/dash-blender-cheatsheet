@@ -16,6 +16,7 @@ cheatsheet do
     end
     entry do
       command 'Scroll'
+
       name 'Zoom'
     end
     entry do
@@ -49,7 +50,7 @@ cheatsheet do
       name 'Perspective/Orthographic'
     end
     entry do
-      command 'SHIF+F'
+      command 'SHIFT + F'
       name 'Fly mode'
     end
     entry do
@@ -67,7 +68,7 @@ cheatsheet do
   end
 
   category do
-    id 'Object Mode'
+    id 'In Object Mode'
     entry do
       command 'SHIFT + D'
       name 'Duplicate'
@@ -125,10 +126,106 @@ cheatsheet do
       name 'Parent'
     end
     entry do
-      command 'CTRL + P'
+      command 'ALT + P'
       name 'Clear Parent'
     end
   end
+
+  category do
+    id 'Common'
+    entry do
+      command 'SHIFT + A'
+      name 'Add Object'
+    end
+    entry do
+      command 'SPACE'
+      name 'Search'
+    end
+    entry do
+      command 'G'
+      name 'Move'
+    end
+    entry do
+      command 'S'
+      name 'Scale'
+    end
+    entry do
+      command 'R'
+      name 'Rotate'
+    end
+    entry do
+      command 'CTL + SHIFT + ALT + C'
+      name 'Move Origin Point'
+    end
+    entry do
+      command 'P'
+      name 'Properties Bar'
+    end
+    entry do
+      command 'Toolbar'
+      name 'T'
+    end
+    entry do
+      command 'Option Menu'
+      name 'W'
+    end
+  end
+
+  category do
+    id 'Selection'
+    entry do
+      command 'Right Click'
+      name 'Select'
+    end
+    entry do
+      command 'A'
+      name 'Select All'
+    end
+    entry do
+      command 'B'
+      name 'Box Select'
+    end
+    entry do
+      command 'C'
+      name 'Circle Select'
+    end
+    entry do
+      command 'CTL + Left Click'
+      name 'Lasso tool'
+    end
+    entry do
+      command 'SHIFT + G'
+      name 'Select similar'
+    end
+    entry do
+      command 'CTL + I'
+      name 'Invert selection'
+    end
+  end
+
+  category do
+    id 'Changing View'
+    entry do
+      command 'Z'
+      name 'Wirefram/Solid view'
+    end
+    entry do
+      command '/'
+      name 'Isolated View'
+    end
+    entry do
+      command 'SHIFT + Z'
+      name 'Rendered View'
+    end
+    entry do
+      command 'CTL + TAB'
+      name 'Weight Paint Mode'
+    end
+  end
+
+
+# continue here
+
 
   category do
     id 'Basics'
