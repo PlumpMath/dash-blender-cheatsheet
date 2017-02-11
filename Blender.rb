@@ -223,6 +223,206 @@ cheatsheet do
     end
   end
 
+  category do
+    id 'In Edit Mode'
+    entry do
+      command 'TAB'
+      name 'Edit/Object Mode'
+    end
+    entry do
+      command 'E'
+      name 'Extrude'
+    end
+    entry do
+      command 'i'
+      name 'Inset'
+    end
+    entry do
+      command 'F'
+      name 'Fill'
+    end
+    entry do
+      command 'ALT + Click'
+      name 'Select Edge Loop'
+    end
+    entry do
+      command 'CTL + ALT + Click'
+      name 'Select Ring'
+    end
+    entry do
+      command 'CTL + R'
+      name 'Create Loopcut'
+    end
+    entry do
+      command 'G, G'
+      name 'Edge Slide'
+    end
+    entry do
+      command 'CTL + L'
+      name 'Select All Connected'
+    end
+    entry do
+      command 'CTL + E'
+      name 'Make Seam/Sharp'
+    end
+    entry do
+      command 'SHIFT + E'
+      name 'Edge Crease'
+    end
+    entry do
+      command 'U'
+      name 'Unwrap UVs'
+    end
+    entry do
+      command 'CTL + TAB'
+      name 'Change Selection Mode'
+    end
+    entry do
+      command 'CTL + B'
+      name 'Bevel'
+    end
+    entry do
+      command 'K'
+      name 'Knife Tool'
+    end
+    entry do
+      command 'P'
+      name 'Separate To New Object'
+    end
+    entry do
+      command 'V'
+      name 'Rip'
+    end
+    entry do
+      command 'V'
+      name 'Rip'
+    end
+    entry do
+      command 'ALT + V'
+      name 'Rip Fill'
+    end
+    entry do
+      command 'Y'
+      name 'Split'
+    end
+    entry do
+      command 'CTL + M'
+      name 'Mirror'
+    end
+    entry do
+      command 'ALT + S'
+      name 'Shrink/Flatten'
+    end
+    entry do
+      command 'O'
+      name 'Proportional Falloff'
+    end
+    entry do
+      command 'CTL + SHIFT + N'
+      name 'Recalculate Normals'
+    end
+  end
+
+   category do
+    id 'Sculpting'
+    entry do
+      command 'CTL [HOLD]'
+      name 'Add/Subtract Sculpting'
+    end
+    entry do
+      command 'F'
+      name 'Brush size'
+    end
+    entry do
+      command 'SHIFT+F'
+      name 'Brush strength'
+    end
+    entry do
+      command 'H'
+      name 'Hide Area'
+    end
+    entry do
+      command 'SHIFT + H'
+      name 'Unhide Selection'
+    end
+    entry do
+      command 'M'
+      name 'Mask Paint Mode'
+    end
+    entry do
+      command 'CTL + Click'
+      name 'Subtract Mask Paint'
+    end
+    entry do
+      command 'CTL + I'
+      name 'Fill/Clear Mask'
+    end
+    entry do
+      command 'CTL + SHIFT + Click'
+      name 'Lasso Mask'
+    end
+    entry do
+      command 'E'
+      name 'Stroke Method'
+    end
+  end
+  
+  category do
+    id 'Rendering'
+    entry do
+      command 'F12'
+      name 'Render'
+    end
+    entry do
+      command 'F11'
+      name 'Show Last Render'
+    end
+    entry do
+      command 'F3'
+      name 'Save Render'
+    end
+    entry do
+      command '1 – 8'
+      name 'Change Render Slot'
+    end
+    entry do
+      command 'CTL + B'
+      name 'Only Render Portion'
+    end
+    entry do
+      command 'CTL + ALT + B'
+      name 'Reset Render Portion'
+    end
+    entry do
+      command 'CTL + 0'
+      name 'Change Active Camera'
+    end
+  end
+
+  category do
+    id 'Node Editor'
+    entry do
+      command 'SHIFT + F3'
+      name 'Jump to Node Editor'
+    end
+    entry do
+      command 'F'
+      name 'Connecting Nodes'
+    end
+    entry do
+      command 'CTL + Click[Drag]'
+      name 'Cut Links'
+    end
+    entry do
+      command 'SHIFT + Click[Drag]'
+      name 'Reroute Link'
+    end
+    entry do
+      command 'CTL + X'
+      name 'Delete but keep connected'
+    end
+  end
+
 
 # continue here
 
@@ -797,21 +997,7 @@ cheatsheet do
     end
   end
 
-  category do
-    id 'Sculpting'
-    entry do
-      command 'F'
-      name 'Change brush size'
-    end
-    entry do
-      command 'SHIFT+F'
-      name 'Change brush strength'
-    end
-    entry do
-      command 'CTRL+F'
-      name 'Rotate brush structure'
-    end
-  end
+ 
 
   category do
     id 'Changing Modes'
