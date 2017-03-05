@@ -423,6 +423,109 @@ cheatsheet do
     end
   end
 
+  category do
+    id 'Editing Curves'
+    entry do
+      command 'CTL + Click'
+      name 'Add new Handle'
+    end
+    entry do
+      command 'V'
+      name 'Change Handle Type'
+    end
+    entry do
+      command 'CTL + X'
+      name 'Delete but keep connection'
+    end
+    entry do
+      command 'ALT + C'
+      name 'Close Path'
+    end
+    entry do
+      command 'CTL + T'
+      name 'Tilt'
+    end
+    entry do
+      command 'ALT + T'
+      name 'Clear Tilt'
+    end
+    entry do
+      command 'ALT + C'
+      name 'Convert Curve to Mesh'
+    end
+  end
+
+  category do
+    id 'Animation'
+    entry do
+      command 'ALT + A'
+      name 'Play / Stop Animation'
+    end
+    entry do
+      command 'I'
+      name 'Insert Keyframe'
+    end
+    entry do
+      command 'ALT + I'
+      name 'Remove Keyframe'
+    end
+    entry do
+      command 'Right Arrow / Left Arrow'
+      name 'Go to Next / Previous Frame'
+    end
+    entry do
+      command 'SHIFT + Up Arrow / SHIFT + Down Arrow'
+      name 'Go Forward / Back 10 Frames'
+    end
+    entry do
+      command 'Up Arrow/Down Arrow'
+      name 'Go to Next / Previous Keyframe'
+    end
+    entry do
+      command 'SHIFT + Left Arrow / SHIFT + Right Arrow'
+      name 'Go to First / Last Frame'
+    end
+  end
+
+  category do
+    id 'Armatures'
+    entry do
+      command 'SHIFT + A'
+      name 'Add New Bone'
+    end
+    entry do
+      command 'E'
+      name 'Extrude Bone'
+    end
+    entry do
+      command 'CTL + R'
+      name 'Roll'
+    end
+    entry do
+      command 'CTL + N'
+      name 'Recalculate Roll'
+    end
+    entry do
+      command 'CTL + ALT + A'
+      name 'Align Bones'
+    end
+    entry do
+      command 'M'
+      name 'Move to Bones Layer'
+    end
+    entry do
+      command 'SHIFT + W'
+      name 'Set Bone Flag'
+    end
+    entry do
+      command 'ALT + F'
+      name 'Switch Bone Direction'
+    end
+    entry do
+      command '] / ['
+      name 'Scroll Hierarchy'
+    end
+  end
 
 # continue here
 
